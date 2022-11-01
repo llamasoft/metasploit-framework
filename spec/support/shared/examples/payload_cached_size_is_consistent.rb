@@ -103,7 +103,8 @@ RSpec.shared_examples_for 'payload cached size is consistent' do |options|
       'DNSZONE' => 'corelan.eu',
       'PEXEC' => '/bin/sh',
       'HttpUserAgent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0',
-      'StagerURILength' => 5
+      'StagerURILength' => 5,
+      'PayloadUUIDSeed' => 'Metasploit'
     },
     'Encoder'     => nil,
     'DisableNops' => true
@@ -126,7 +127,8 @@ RSpec.shared_examples_for 'payload cached size is consistent' do |options|
           'DNSZONE' => 'corelan.eu',
           'PEXEC' => '/bin/sh',
           'HttpUserAgent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0',
-          'StagerURILength' => 5
+          'StagerURILength' => 5,
+          'PayloadUUIDSeed' => 'Metasploit'
       },
       'Encoder'     => nil,
       'DisableNops' => true
