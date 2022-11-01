@@ -6,7 +6,7 @@
 
 module MetasploitModule
 
-  CachedSize = 501
+  CachedSize = 428
 
   include Msf::Payload::Stager
   include Msf::Payload::Python::ReverseTcp
